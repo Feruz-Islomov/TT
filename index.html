@@ -82,14 +82,25 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex align-items-center justify-content-center">
       <div class="position-absolute w-100 h-100 darkening"></div>
-      <video
+      <!-- <video
         class="position-absolute vid"
         src="./assets/img/herobg.mp4"
         autoplay
         muted
         loop
-      ></video>
-
+      ></video> -->
+      <video
+        class="position-absolute vid"
+        controls="controls"
+        controls
+        preload="auto"
+        autoplay="autoplay"
+        loop
+        muted
+        playsinline
+      >
+        <source src="./assets/img/herobg.mp4" type="video/mp4" />
+      </video>
       <div class="container" data-aos="fade-up">
         <div
           class="row justify-content-center"
